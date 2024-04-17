@@ -1,0 +1,135 @@
+h1 {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    
+    width: auto;
+    height: 100px;
+
+}
+
+.menu {
+    background: white;
+    background-color: black;
+    width: auto;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: sticky;
+}
+.menu a:hover {
+    background: #f0f0f0;
+}
+.menu a {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    transition: .2s ease-in-out all;
+    font-weight: 500;
+}
+.contenedor {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: aqua;
+    height: 1600px;
+    width: 1400px;
+    border: black 5px dashed;
+    margin: 0px auto;
+    padding: 0px;
+    margin-top: 50px;
+    grid-template-columns: repeat(1,1fr);
+}
+.caja1 {
+    background-color: red;
+    height: 300px;
+    width: 1000px;
+    float: left;
+   
+    
+}
+.caja2 {
+    background-color: blue;
+    height: 300px;
+    width: 400px;
+    float: left;
+    
+}
+.caja3 {
+    background-color: rgb(66, 48, 227);
+    height: 300px;
+    width: 466px;
+    float: left;
+    text-align: center;
+    
+}
+.caja4 {
+    background-color: skyblue;
+    height: 300px;
+    width: 466px;
+    float: left;
+    
+}
+
+.caja5 {
+    background-color: brown;
+    height: 300px;
+    width: 466px;
+    float: left;
+    
+}
+.caja6 {
+    background-color: violet;
+    height: 500px;
+    width: 350px;
+    float: left;
+    
+}
+
+.caja7 {
+    background-color: pink;
+    height: 500px;
+    width: 350px;
+    float: left;
+    
+}
+
+.caja8 {
+    background-color: blueviolet;
+    height: 500px;
+    width: 350px;
+    float: left;
+    
+}
+.caja9 {
+    background-color: green;
+    height: 500px;
+    width: 350px;
+    float: left;
+    
+}
+.caja10 {
+    background-color: gold;
+    height: 300px;
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.caja11 {
+    background-color: teal;
+    height: 150px;
+    width: 700px;
+    
+
+
+    
+}
